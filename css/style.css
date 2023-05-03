@@ -424,6 +424,8 @@ img {
   background-color: var(--color-navy-blue);
 }
 .footer-container {
+  
+  
 }
 .footer-link {
   display: inline-block;
@@ -457,6 +459,38 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-cloud);
+}
+.social-media-container{
+  
+}
+.social-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+.social-list{
+  display: flex;
+  gap: 16px;
+}
+.social-item{
+  width: 40px;
+  height: 40px;
+}
+.social-link{
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link:hover,
+.social-link:focus{
+  background-color: var(--color-green);
 }
 /**
   |============================
