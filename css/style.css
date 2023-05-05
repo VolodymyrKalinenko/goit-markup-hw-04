@@ -368,6 +368,9 @@ img {
 .team-icon-link:focus{
   background-color: var(--color-ocean);
 }
+.team-icon-svg{
+  fill: var(--color-white);
+}
 /**
   |============================
   |         Customers
@@ -422,9 +425,13 @@ img {
 .footer {
   padding: 100px 0;
   background-color: var(--color-navy-blue);
+  display: flex;
+  align-items: baseline;
+  
 }
 .footer-container {
-  
+  margin-right: 120px;
+  padding: 0 15px;
   
 }
 .footer-link {
