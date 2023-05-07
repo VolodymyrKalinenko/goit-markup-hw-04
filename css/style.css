@@ -400,7 +400,6 @@ img {
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid var(--color-light-slate);
 }
 .customers-item-link{
   width: 100%;
