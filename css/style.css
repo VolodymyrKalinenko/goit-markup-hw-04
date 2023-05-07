@@ -417,6 +417,7 @@ img {
 .customers-item-link:focus{
   fill: var(--color-ocean);
   border: 1px solid var(--color-ocean);
+  color: var(--color-ocean);
 }
 /**
   |============================
@@ -499,7 +500,7 @@ img {
   justify-content: center;
 }
 .social-svg{
-  fill: var(--color-white);
+  fill:var(--color-cloud);
 }
 .social-link:hover,
 .social-link:focus{
